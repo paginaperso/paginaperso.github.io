@@ -1,0 +1,136 @@
+@font-face{
+    src:url('dexu.otf');
+    font-family: det;
+
+}
+@font-face{
+    src:url('aer.ttf');
+    font-family:let;
+
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.titulo{
+    background-color: blueviolet(120, 120, 120, 0.204);
+    text-shadow: 14px 12px blueviolet( 74,12,232,0.404);
+    color: brown(9,12,80);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 60px;
+    margin: 29px 100px;
+    border: teal  solid;
+}
+.nin img{
+    margin: 15px 300px;
+    border:2px chocolate;
+    border-radius: 60%;
+    display: block;
+}
+
+
+h3{
+    background-color: darkgreen(120, 120, 120, 0.204);
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown(120,11,11);
+    border: black solid;
+
+}
+h4{
+    background-color: blueviolet(120, 120, 120, 0.204);
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:brown(20,8,243);
+    border-color: 6px chartreuse;
+}
+p{
+    background-color: blueviolet(120, 120, 120, 0.204);
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: burlywood(15,20,209);
+    border: springgreen solid;
+}
+table{
+    background-color: crimson(120, 120, 120, 0.204);
+    border: 14px brown;
+
+}
+td{
+    background-color: cadetblue(221,221,225,0.467);
+    color: brown(15,26,112);
+    font-size: 30px;
+    border: teal solid;
+    text-align: center;
+}
+th{
+    color: darkblue;
+    background-color: darkorchid;
+    font-size: 35px;
+    border:3px chartreuse;
+}
+.ingles{
+    background-color: chocolate;
+    color: cyan;
+}
+.musica{
+    background-color: darkblue(27,128,14);
+    color: darkgoldenrod;
+}
+.h3{
+    background-color: darkgreen;
+}
+.ul{ 
+    margin: auto;
+    width: 60%;
+    padding: 40px;
+
+    background-color: cornflowerblue( 124,266,266);
+    color: cornsilk(33,35,35);
+    margin-bottom: 20px;
+
+}
+
+.ol{
+    margin: auto;
+    width: 60%;
+    padding: 40px;
+
+    background-color: crimson(210,159,253);
+    color: black;
+    
+}
+
+
+form{
+    width: 50%;
+    border: 2px darkgreen ( 65,250,65);
+    margin: 20px
+}
+
+label{ 
+    font-size: 40px;
+    display: block;
+    color: burlywood;
+}
+
+input{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+textarea{
+    display: block;
+    margin-bottom: 40px;
+    width: 100%;
+    color: coral;
+}
+
+button{
+    width: 100%;
+}
+input:focus{
+    border:1px darkmagenta(18,138,250);
+}
